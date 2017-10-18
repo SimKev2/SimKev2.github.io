@@ -1,0 +1,123 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+  background-color: #eee;
+}
+
+.section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-header {
+    font-size: 4em;
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+
+.project {
+    border: 1px rgba(150,150,150,.5) solid;
+    border-radius: 3px;
+    padding: 15px;
+    margin-top: 60px;
+    background: #ffffff;
+}
+
+#header .jumbotron {
+    color: #ccc;
+    height: 600px;
+    background-image: url(/static/images/stardust.png);
+    background-position: initial initial;
+    background-repeat: initial initial;
+}
+
+#header h1 {
+    color: #fff;
+    margin-top: 200px;
+}
+
+#footer {
+    color: #ddd;
+    background-color: #222;
+    text-align: center;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+}
+
+.navbar-nav > li {
+    font-size: 1.5em;
+}
+
+.navbar {
+    height: 70px;
+    padding-top: 8px;
+    border-bottom: 5px solid;
+    border-bottom-color: #2c3e50;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+.navbar-wrapper .navbar {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Remove the edge padding needed for mobile */
+  .marketing {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-left:  15px;
+    padding-right: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-left:  0;
+    padding-right: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 80px;
+  }
+}
