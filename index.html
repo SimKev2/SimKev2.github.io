@@ -55,13 +55,15 @@
                         <img class="img-responsive img-rounded" src="/static/images/LEDBoard.jpg" />
                     </div>
                     <div class="col-md-8 text-left">
-                        <p>In my second semester here I took CprE 186, a course designed to allow students to create a project on their own. I worked in a group of 5 people
-                        including myself. We chose to create a music visualizer, our idea being that you could input a .mp3 file and the waveform would show up on our custom
-                        LED board, much like the one seen here, in real time. My job was to design and create the LED board consisting of 128 LED's arranged in a 16x8 grid.
-                        This involved connecting multiple LED's together so we had 2x2 "nodes" for our outputs. Then soldering wires coming from the nodes onto the Cubieboard gpio pins.
-                        The end result was a moving visualizer on the LED display. I was able to learn a lot about practical building of hobby level hardware, 
-                        and could now confidently build a small project on my own even if it involves electronics. We made heavy use of our schools
-                        Electronic Technology Group for both guidance and hardware.</p>
+                        <p>
+                            In my second semester here I took CprE 186, a course designed to allow students to create a project on their own. I worked in a group of 5 people
+                            including myself. We chose to create a music visualizer, our idea being that you could input a .mp3 file and the waveform would show up on our custom
+                            LED board, much like the one seen here, in real time. My job was to design and create the LED board consisting of 128 LED's arranged in a 16x8 grid.
+                            This involved connecting multiple LED's together so we had 2x2 "nodes" for our outputs. Then soldering wires coming from the nodes onto the Cubieboard gpio pins.
+                            The end result was a moving visualizer on the LED display. I was able to learn a lot about practical building of hobby level hardware, 
+                            and could now confidently build a small project on my own even if it involves electronics. We made heavy use of our schools
+                            Electronic Technology Group for both guidance and hardware.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -72,13 +74,15 @@
                         <img class="img-responsive img-rounded" src="/static/images/cs309.png" />
                     </div>
                     <div class="col-md-8 text-left">
-                        <p>During my junior year I took ComS 309, another project course, where my team and I developed a project with the idea of allowing people living together
-                        in an apartment to better manage both household chores, as well as communal groceries and the payments with them. We developed an Android frontend seen here
-                        and hosted our backend on Google AppEngine. We were able to both manage and sync schedules across devices, as well as send notifications to anyone who is
-                        late on their tasks, and we created a scheduling algorithm to find a time for the group to meet automatically by looking at their calendars. This project 
-                        earned us a Best Project Nomination out of 40+ projects. I worked on the backend development for this project, developing the API endpoints the frontent would
-                        hit in order to create tasks or retrieve information. This project involved using a lot of Google's App Engine documentation for learning how to best set up
-                        our server. I learned a lot more about hosting projects and working with front-end devs in parallel.</p>
+                        <p>
+                            During my junior year I took ComS 309, another project course, where my team and I developed a project with the idea of allowing people living together
+                            in an apartment to better manage both household chores, as well as communal groceries and the payments with them. We developed an Android frontend seen here
+                            and hosted our backend on Google AppEngine. We were able to both manage and sync schedules across devices, as well as send notifications to anyone who is
+                            late on their tasks, and we created a scheduling algorithm to find a time for the group to meet automatically by looking at their calendars. This project 
+                            earned us a Best Project Nomination out of 40+ projects. I worked on the backend development for this project, developing the API endpoints the frontent would
+                            hit in order to create tasks or retrieve information. This project involved using a lot of Google's App Engine documentation for learning how to best set up
+                            our server. I learned a lot more about hosting projects and working with front-end devs in parallel.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -89,20 +93,40 @@
                         <img class="img-responsive img-rounded" src="/static/images/HackISU.png" />
                     </div>
                     <div class="col-md-8 text-left">
-                        <p>During a HackISU event in september of 2016, I and a partner created a run training and scheduling software that takes your goal date and distance as input,
-                        and will schedule a training program for you. We use the Google Calendar API to read your events between the current date and your goal date and find any 
-                        free time in your calendar. Then we take our training schedule and try to find time during the day that we can schedule a run, based on how long the run will be.
-                        For this project I mainly worked on the Google Calendar integration and the scheduler algorithm. Using a lot of Google Calendar documentation and some knowledge
-                        from my ComS classes, I created my part of the project. I learned a lot about how to interact with third party APIs, and learned more about practical implementations
-                        of scheuling algorithms.</p>
+                        <p>
+                            During a HackISU event in september of 2016, I and a partner created a run training and scheduling software that takes your goal date and distance as input,
+                            and will schedule a training program for you. We use the Google Calendar API to read your events between the current date and your goal date and find any 
+                            free time in your calendar. Then we take our training schedule and try to find time during the day that we can schedule a run, based on how long the run will be.
+                            For this project I mainly worked on the Google Calendar integration and the scheduler algorithm. Using a lot of Google Calendar documentation and some knowledge
+                            from my ComS classes, I created my part of the project. I learned a lot about how to interact with third party APIs, and learned more about practical
+                            implementations of scheuling algorithms.
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="row text-center" style="margin: 30px 0px 30px 0px;">
                 <div class="container">
                     <h2 class="text-center">Senior Design</h2>
+                    <p class="lead">Adaptive Wireless Wearable Neuro-Stimulator</p>
                     <div class="col-md-12 text-left">
-                        <p>Senior Design Project</p>
+                        <p>
+                            The adaptive wireless wearable neuro-stimulator is meant to provide a source of data for study on SIDS. Our device will be worn by infants and take
+                            data readings from the various sensors contacting the skin. The device will have a heart beat monitor and accelerometer. It will also keep track 
+                            of the date, time, and location of the device. It will be fastened to the infant using a flexible, durable material. Based on the readings and data taken
+                            from the database, the device will administer a vibration pulse to the child in the hopes of getting it to move without waking it up to provide stimulation
+                            to the child.
+                            <br><br>
+                            My role on this project involves managing the server and database, visualizing the data provided to us by our client, and creating a front-end to be
+                            used by medical researchers that can visualize the data we collect from all devices. The database is being set up as a SQL database and will need
+                            a couple of tables to store the different types of data readings we receive. And visualizing the data provides an interesting challenge as we need
+                            a way to visualize possibly hundreds of thousands of data points. Big picture, my job is to record the data and present it to medical professionals in
+                            a consumable way.
+                            <br><br>
+                            This project has thus far given me an opportunity to learn how to set up and use a SQL database, and allowed me to research and learn to use big data
+                            graphing libraries. I have also learned more about managing team members roles on projects in order to get the most benefit from the time put in.
+                            <br><br>
+                            Additional documents can be viewed on our <a href="http://sdmay18-22.sd.ece.iastate.edu/">teams website</a>.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -141,6 +165,7 @@
                         </p>
                     </div>
                     <div class="col-md-12">
+                        <br>
                         <p class="lead">Contact me</p>
                         <p class="text-center"></p>
                     </div>
