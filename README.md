@@ -1,6 +1,8 @@
-# Wedding Website
-A beautiful, feature rich, device friendly wedding website.  
-_See [wedding.rampatra.com](http://wedding.rampatra.com/) for a demo. Use invite code `271117` to RSVP._
+# SimKev2.github.io
+
+Forked from <https://github.com/rampatra/wedding-website>
+
+A beautiful, feature rich, device friendly wedding website.
 
 # Highlights
 1. Slick and fully __responsive__ design.
