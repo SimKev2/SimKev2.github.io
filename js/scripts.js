@@ -165,16 +165,6 @@ $(document).ready(function () {
     $('.player').YTPlayer();
 
 
-    /********************** Toggle Map Content **********************/
-    $('#btn-show-map').click(function () {
-        $('#map-content').toggleClass('toggle-map-content');
-        $('#btn-show-content').toggleClass('toggle-map-content');
-    });
-    $('#btn-show-content').click(function () {
-        $('#map-content').toggleClass('toggle-map-content');
-        $('#btn-show-content').toggleClass('toggle-map-content');
-    });
-
     /********************** Add to Calendar **********************/
     var myCalendar = createCalendar({
         options: {
@@ -234,35 +224,6 @@ $(document).ready(function () {
 });
 
 /********************** Extras **********************/
-
-// Google map
-function initMap() {
-    var itc_kol = {lat: 41.5985812, lng: -93.8311284};
-    var map = new google.maps.Map(document.getElementById('map-canvas'), {
-        zoom: 15,
-        center: itc_kol,
-        scrollwheel: false
-    });
-
-    var marker = new google.maps.Marker({
-        position: itc_kol,
-        map: map
-    });
-}
-
-function initBBSRMap() {
-    var la_fiesta = {lat: 20.305826, lng: 85.85480189999998};
-    var map = new google.maps.Map(document.getElementById('map-canvas'), {
-        zoom: 15,
-        center: la_fiesta,
-        scrollwheel: false
-    });
-
-    var marker = new google.maps.Marker({
-        position: la_fiesta,
-        map: map
-    });
-}
 
 // alert_markup
 function alert_markup(alert_type, msg) {
