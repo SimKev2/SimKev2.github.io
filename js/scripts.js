@@ -93,22 +93,22 @@ $(document).ready(function () {
                 $('section.navigation').addClass('fixed');
                 $('header').css({
                     "border-bottom": "none",
-                    "padding": "35px 0"
+                    "padding": "20px 0"
                 });
                 $('header .member-actions').css({
-                    "top": "26px",
+                    "top": "20px",
                 });
                 $('header .navicon').css({
-                    "top": "34px",
+                    "top": "20px",
                 });
             } else {
                 $('section.navigation').removeClass('fixed');
                 $('header').css({
                     "border-bottom": "solid 1px rgba(255, 255, 255, 0.2)",
-                    "padding": "50px 0"
+                    "padding": "40px 0"
                 });
                 $('header .member-actions').css({
-                    "top": "41px",
+                    "top": "40px",
                 });
                 $('header .navicon').css({
                     "top": "48px",
@@ -237,7 +237,7 @@ $(document).ready(function () {
 
 // Google map
 function initMap() {
-    var itc_kol = {lat: 22.5932759, lng: 88.27027720000001};
+    var itc_kol = {lat: 41.5985812, lng: -93.8311284};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 15,
         center: itc_kol,

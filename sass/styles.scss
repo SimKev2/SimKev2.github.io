@@ -53,6 +53,9 @@ ul, ol {
 ul li {
   list-style: none;
 }
+.event-padding {
+  padding-bottom: 15px;
+}
 section .header {
   padding-bottom: 30px;
 }
@@ -299,7 +302,7 @@ Hero
   width: 100%;
 }
 header {
-  padding: 50px 0;
+  padding: 40px 0;
   border-bottom: solid 1px rgba(255, 255, 255, 0.2);
   position: relative;
   width: 1170px;
@@ -319,7 +322,7 @@ header {
     display: inline-block;
   }
   .logo img {
-    height: 19px;
+    height: 40px;
   }
   ul.primary-nav {
     margin: 0 0 0 75px;
@@ -360,7 +363,7 @@ header {
   .member-actions {
     position: absolute;
     right: 0;
-    top: 41px;
+    top: 40px;
     transition: all 300ms ease-in-out;
   }
 }
@@ -554,11 +557,11 @@ Features-stack
 ========================================================================== */
 .events {
   .leftcol {
-    padding-right: 100px;
+    padding-right: 10px;
     border-right: solid 1px $keyline-color;
   }
   .rightcol {
-    padding-left: 100px;
+    padding-left: 10px;
   }
 
   .time {
@@ -756,13 +759,10 @@ Google map
 }
 #map-content-wrapper {
   position: relative;
-  margin-top: -502px;
-  margin-bottom: 150px;
 }
 #map-content {
-  margin-top: 40px;
   padding: 50px 60px;
-  background: #fff;
+  background-color: #f8f9fd;
   -webkit-transition: opacity 0.5s, visibility 0.6s, margin-top 0.5s;
   transition: opacity 0.5s, visibility 0.6s, margin-top 0.5s;
 }
