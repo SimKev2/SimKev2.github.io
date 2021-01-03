@@ -780,6 +780,23 @@ Google map
 }
 
 /* ==========================================================================
+Hotels map
+========================================================================== */
+#hotels-canvas {
+  height: 500px;
+  width: 100%;
+}
+#hotels-content-wrapper {
+  position: relative;
+}
+#hotels-content {
+  padding: 50px 60px;
+  background-color: #f8f9fd;
+  -webkit-transition: opacity 0.5s, visibility 0.6s, margin-top 0.5s;
+  transition: opacity 0.5s, visibility 0.6s, margin-top 0.5s;
+}
+
+/* ==========================================================================
 RSVP form
 ========================================================================== */
 .rsvp {
