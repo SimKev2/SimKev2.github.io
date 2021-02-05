@@ -190,7 +190,7 @@ $(document).ready(function () {
             address: 'The Tea Room, 713 Walnut St UNIT 600, Des Moines, IA 50309, USA',
 
             // Event Description
-            description: "We can't wait to see you on our big day. For any queries or issues contact Mr. Kevin Simons at simkev2@gmail.com"
+            description: "We can't wait to see you on our big day. For any queries or issues contact Mr. Kevin Simons at simkev2@gmail.com . The Tea Room is located on the 6th floor of the Wilkins building in Des Moines."
         }
     });
 
