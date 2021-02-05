@@ -10,11 +10,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <title>Kevin and Sophie 2020!</title>
+    <title>Kevin and Sophie 2021!</title>
     <meta name="description" content="We would like to invite you to our big day.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#ffffff">
-    <meta property="og:title" content="Kevin and Sophie 2020!">
+    <meta property="og:title" content="Kevin and Sophie 2021!">
     <meta property="og:description" content="We would like to invite you to our big day.">
     <!--<meta property="og:image" content="https://kevinandsophie.us/img/hero.jpg">-->
     <meta property="og:type" content="website">
@@ -54,7 +54,7 @@
                         </ul>
                         <ul class="member-actions">
                             <li><a href="#map" class="login">Venue</a></li>
-                            <!--<li><a href="#rsvp" class="btn-white btn-small">RSVP</a></li>-->
+                            <li><a href="#rsvp" class="btn-white btn-small">RSVP</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -76,8 +76,9 @@
         </div>
         <div class="row">
             <div class="col-sm-4 hidden-xs"></div>
-            <!--<div class="col-sm-4 hidden-xs text-center"><a href="#rsvp"
-                class="btn btn-accent btn-large rsvp-btn">RSVP</a></div>-->
+            <div class="col-sm-4 hidden-xs text-center">
+              <a href="#rsvp" class="btn btn-accent btn-large rsvp-btn">RSVP</a>
+            </div>
             <div class="col-sm-4 hidden-xs"></div>
         </div>
     </div>
@@ -161,11 +162,11 @@
             </div>
             <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
                 <div class="wp4">
-                    <h5><span class="time">TBD</span></h5>
+                    <h5><span class="time">4 pm</span></h5>
                 </div>
                 <div class="wp6">
-                    <h5><span class="time">TBD</span></h5>
-                    <h5><span class="time">TBD</span></h5>
+                    <h5><span class="time">Approx. 4:30 pm</span></h5>
+                    <h5><span class="time">Approx. 6:00 pm</span></h5>
                 </div>
             </div>
         </div>
@@ -334,7 +335,7 @@
         <h3>Nearby Hotels</h3>
     </div>
     <div id="map-content-wrapper" class="container pointer-events-none">
-        <div class="row text-center">
+        <div class="row text-center section-border section-padding">
             <div class="col-md-4">
                 <div id="map-content" class="pointer-events-auto">
                     <a target="_blank" href="http://desluxhotel.com/">
@@ -378,20 +379,7 @@
 
 <section class="rsvp text-center" id="rsvp">
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-                <h3>RSVP Information to come ~February</h3>
-                <p>We are currently working on sending out invites around the end of Jan/beginning of Feb. And will update here with RSVP info.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 section-border section-padding">
-            </div>
-        </div>
-    </div>
-
-    <!--<div id="rsvp-modal" class="modal fade" tabindex="-1" role="dialog">
+    <div id="rsvp-modal" class="modal fade" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -405,29 +393,28 @@
                 </div>
             </div>
         </div>
-    </div>-->
+    </div>
 
-    <!--<div class="container">
+    <div class="container">
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
                 <h3>What are you waiting for?</h3>
-                <p>We would greatly appreciate if you could RSVP before 1st of September '20</p>
+                <p>We would greatly appreciate if you could RSVP before 5th of March '21</p>
                 <form id="rsvp-form" class="rsvp-form"
                       action=""
                       method="POST">
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
-                                <i class="fa fa-envelope"></i><input type="email" name="email" class=""
-                                                                     placeholder="Your email"
-                                                                     required>
+                                <i class="fa fa-user"></i><input name="name" class=""
+                                                                 placeholder="Your name first+last"
+                                                                 required>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
-                                <i class="fa fa-user"></i><input name="name" class=""
-                                                                 placeholder="Your name"
-                                                                 required>
+                                <i class="fa fa-envelope"></i><input type="email" name="email" class=""
+                                                                     placeholder="Your email (optional)">
                             </div>
                         </div>
                     </div>
@@ -436,17 +423,34 @@
                             <div class="form-input-group">
                                 <i class="fa fa-users"></i><input type="number" name="extras" class="" min="0"
                                                                   max="4"
-                                                                  placeholder="Husband/Wife or kids"
+                                                                  placeholder="Plus 1s / Spouses / Kids"
                                                                   required>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
-                                <i class="fa fa-key"></i><input type="number" name="invite_code" id="invite_code"
-                                                                class="" min="0"
-                                                                placeholder="Invite code"
+                                <i class="fa fa-key"></i><input name="invite_code" id="invite_code"
+                                                                class="" placeholder="Invite code"
                                                                 required>
                             </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="form-input-group">
+                                <i class="fa fa-comment-o"></i><input name="comment" id="comment"
+                                                                class="" placeholder="Names and food choices for guests (ex. Sophie Masters - Duet)">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <input type="radio" name="rsvp" id="accepts" value="1" class="">
+                            <label for="accepts">Happily Accept</label>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <input type="radio" name="rsvp" id="declines" value="0" class="">
+                            <label for="declines">Regretfully Decline</label>
                         </div>
                     </div>
                     <div class="row">
@@ -458,8 +462,13 @@
                     </button>
                 </form>
             </div>
+
+            <div class="col-md-12 section-border section-padding">
+                <p>Dinner choices are a Duet plate with Beef & Chicken, or a Vegetarian option.</p>
+            </div>
+
         </div>
-    </div>-->
+    </div>
 </section>
 
 <section class="rsvp text-center" id="rsvp">
