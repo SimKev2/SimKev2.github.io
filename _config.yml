@@ -21,13 +21,11 @@
 title: Kevin Simons
 email: simkev2@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  My personal website created to showcase my resume and experience working withing
+  My personal website created to showcase my resume and experience working within
   the field of software and technology.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://simkev2.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: simkev2
-
-remote_theme: "mmistakes/minimal-mistakes@4.23.0"
 
 # Build settings
 plugins:
@@ -65,7 +63,7 @@ plugins:
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes@4.23.0"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -133,8 +131,8 @@ analytics:
 # Site Author
 author:
   name             : "Kevin Simons"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  avatar           : "/assets/images/KevinSimonsPic.jpg"
+  bio              : "Software engineer with a focus on infrastructure."
   location         : "Ankeny, Iowa"
   email            : "simkev2@gmail.com"
   links:

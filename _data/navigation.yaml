@@ -2,11 +2,7 @@
 main:
   - title: "Home"
     url: /
-  - title: "Résumé"
+  - title: "Resumé"
     url: /about/
   - title: "Contact"
     url: /contact/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
