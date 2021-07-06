@@ -3,15 +3,16 @@ title: Contact
 permalink: /contact/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I am always open to discuss new opportunities. Currently I am located near the Des Moines area in
+Iowa, but am open to remote work as well. At this time I would prefer not to relocate.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+If you would like to get in contact with me, the best way to reach me is by email at
+[simkev2@gmail.com](mailto:simkev2@gmail.com).
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+My main areas of interest include
+  - Distributed systems
+  - Cloud computing
+  - Software development in Python, Golang, or Rust
 
-
-[jekyll-organization]: https://github.com/jekyll
+However I am always up to learn new skills, so if you think I would be a good match for a position,
+please let me know.
