@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "ruby:bundler"
+    directory: "/"
+    update_schedule: "weekly"
+    open-pull-requests-limit: 3
