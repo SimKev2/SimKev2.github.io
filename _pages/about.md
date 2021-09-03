@@ -46,7 +46,7 @@ Python, Golang, Rust, Bash, Java
 
 ## Technical
 
-Cloud services (AWS, GAE), Kubernetes, Docker, Git, Reliability Engineering, Linux
+Cloud services (AWS, GAE), Kubernetes, Docker, Terraform, Git, Reliability Engineering, Linux
 
 # Educational History
 
