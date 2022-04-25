@@ -6,7 +6,7 @@ source "https://rubygems.org"
 #     bundle exec jekyll serve
 #
 
-gem "github-pages", "~> 221", group: :jekyll_plugins
+gem "github-pages", "~> 226", group: :jekyll_plugins
 gem "jekyll-include-cache", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
