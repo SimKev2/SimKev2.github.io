@@ -49,4 +49,4 @@ Cloud services (AWS, GAE), Kubernetes, Docker, Terraform, Git, Reliability Engin
 # Educational History
 
 ## Iowa State University, Ames, IA
-<span class="sub-title">Bachelor's Degree, Computer Engineering, 3.6 GPA <span style="float: right;">2014 - 2018</span></span>
+<span class="sub-title">Bachelor's Degree, Computer Engineering</span>
