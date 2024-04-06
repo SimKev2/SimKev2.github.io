@@ -6,8 +6,13 @@ layout: splash
 
 # Professional Experience
 
+## Grafana Labs, Remote
+<span class="sub-title">Senior Software Engineer II <span style="float: right;">Apr 2024 - Present</span></span>
+
+  - Part of the Platform Federal team working to develop and deploy a FedRAMP compliant environment
+
 ## __Workiva__, Ames, IA
-<span class="sub-title">Staff Software Engineer <span style="float: right;">Dec 2021 - Present</span></span> \
+<span class="sub-title">Staff Software Engineer <span style="float: right;">Dec 2021 - Mar 2024</span></span> \
 <span class="sub-title">Senior Software Engineer <span style="float: right;">Apr 2020 - Dec 2021</span></span> \
 <span class="sub-title">Software Engineer <span style="float: right;">May 2018 - Apr 2020</span></span> \
 <span class="sub-title">Software Engineering Intern <span style="float: right;">Jan 2016 - May 2018</span></span>
