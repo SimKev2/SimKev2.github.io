@@ -3,9 +3,9 @@ layout: single
 author_profile: true
 ---
 
-Hello! I am Kevin Simons, currently employed as a Staff Software Engineer on the Infrastructure
-Engineering team at [Workiva](https://www.workiva.com/). My experience is a mix of typical software
-engineering as well as a healthy dose of DevOps.
+Hello! I am Kevin Simons, currently employed as a Senior Software Engineer II on the Platform
+Federal Engineering team at [Grafana Labs](https://grafana.com/). My experience is a mix of typical
+software engineering as well as a healthy dose of DevOps.
 
 Some of my favorite projects I have been involved with include:
 
